@@ -1,0 +1,561 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Federico",
+      "surname": "Tammaro",
+      "description": "A Santa Marta mangio solamente la pizza",
+      "user_img": "",
+      "participated": [
+        2,
+        5,
+        6
+      ],
+      "organized": [
+        3
+      ],
+      "host_rating": 80,
+      "participant_rating": 90,
+      "friends": [2]
+    },
+    {
+      "id": 2,
+      "name": "Tommaso",
+      "surname": "Barletti",
+      "description": "Brucierei la mensa di Santa Marta",
+      "user_img": "",
+      "participated": [
+        3,
+        5,
+        6
+      ],
+      "organized": [
+        1,
+        2,
+        8
+      ],
+      "host_rating": 100,
+      "participant_rating": 100,
+      "friends": [1, 3]
+    },
+    {
+      "id": 3,
+      "name": "Pinco",
+      "surname": "Pallino",
+      "description": "Sono un utente vero, lo giuro!",
+      "user_img": "",
+      "participated": [],
+      "organized": [
+        4,
+        5,
+        6
+      ],
+      "host_rating": 60,
+      "participant_rating": 60,
+      "friends": [2]
+    },
+    {
+      "id": 4,
+      "name": "Mario",
+      "surname": "Bianchi",
+      "description": "Ogni tanto ci sono anche io",
+      "user_img": "",
+      "participated": [],
+      "organized": [],
+      "host_rating": 68,
+      "participant_rating": 69,
+      "friends": []
+    },
+    {
+      "id": 5,
+      "name": "Roberto",
+      "surname": "Picchi",
+      "description": "Amo fare surf!",
+      "user_img": "",
+      "participated": [],
+      "organized": [],
+      "host_rating": 100,
+      "participant_rating": 90,
+      "friends": []
+    },
+    {
+      "id": 6,
+      "name": "Ignazio",
+      "surname": "Gru",
+      "description": "Che succede?",
+      "user_img": "",
+      "participated": [],
+      "organized": [],
+      "host_rating": 89,
+      "participant_rating": 90,
+      "friends": []
+    },
+    {
+      "id": 7,
+      "name": "Stefanio",
+      "surname": "Collo",
+      "description": "Buongiorno presidente...",
+      "user_img": "",
+      "participated": [],
+      "organized": [],
+      "host_rating": 70,
+      "participant_rating": 86,
+      "friends": []
+    },
+    {
+      "id": 8,
+      "name": "Marcus",
+      "surname": "Puzia",
+      "description": "Vegani no grazie...",
+      "user_img": "",
+      "participated": [],
+      "organized": [],
+      "host_rating": 77,
+      "participant_rating": 84,
+      "friends": []
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Passeggiata in Morgagni",
+      "category": 2,
+      "date": "21/04/2020",
+      "time": "13:50",
+      "description": "Passeggiata per evitare di studiare",
+      "maxParticipants": 10,
+      "address": "Viale Morgagni 40, Firenze",
+      "coords": [
+        11.24513,
+        43.80121
+      ],
+      "visibility": "friends",
+      "image": "morgagni.jpeg",
+      "creator": 2,
+      "participants": [
+        2
+      ],
+      "active": 1
+    },
+    {
+      "id": 2,
+      "title": "Bowling serale",
+      "category": 2,
+      "date": "22/04/2020",
+      "time": "20:50",
+      "description": "Partita a bowling dove il perdente paga per tutti",
+      "maxParticipants": 6,
+      "address": "Via Alderotti 24, Firenze",
+      "coords": [
+        11.24472,
+        43.79555
+      ],
+      "visibility": "friends",
+      "image": "bowling.jpg",
+      "creator": 2,
+      "participants": [
+        1,
+        2
+      ],
+      "active": 1
+    },
+    {
+      "id": 3,
+      "title": "Studiare a Santa Marta",
+      "category": 7,
+      "date": "23/04/2020",
+      "time": "08:50",
+      "description": "La mensa è buonissima, veniamo a mangiare tutti qui",
+      "maxParticipants": 21,
+      "address": "Via di Santa Marta 3, Firenze",
+      "coords": [
+        11.25539,
+        43.79898
+      ],
+      "visibility": "friends",
+      "image": "studiare-santaM.jpeg",
+      "creator": 1,
+      "participants": [
+        1,
+        2
+      ],
+      "active": 1
+    },
+    {
+      "id": 4,
+      "title": "Serata film",
+      "category": 1,
+      "date": "25/04/2020",
+      "time": "21:30",
+      "description": "Andiamo a vedere un film a caso",
+      "maxParticipants": 10,
+      "address": "Viale Morgagni 51, Firenze",
+      "coords": [
+        11.24413,
+        43.79977
+      ],
+      "visibility": "invite",
+      "image": "serata-film.jpeg",
+      "creator": 3,
+      "participants": [3],
+      "active": 1
+    },
+    {
+      "id": 5,
+      "title": "Birretta in compagnia",
+      "category": 6,
+      "date": "01/04/2020",
+      "time": "21:30",
+      "description": "Si accettano solamente amanti della birra!",
+      "maxParticipants": 5,
+      "address": "Viale Morgagni 37, Firenze",
+      "coords": [
+        11.24317,
+        43.79886
+      ],
+      "visibility": "public",
+      "image": "birretta.jpeg",
+      "creator": 3,
+      "participants": [
+        1,
+        2,
+        3
+      ],
+      "active": 0
+    },
+    {
+      "id": 6,
+      "title": "Calcetto a 5",
+      "category": 8,
+      "date": "25/04/2020",
+      "time": "17:00",
+      "description": "Partita amichevole in preparazione al torneo di fine Febbraio... Partecipate numerosi!",
+      "maxParticipants": 5,
+      "address": "Via Don Giulio Facibeni 13, Firenze",
+      "coords": [
+        11.242923,
+        43.802959
+      ],
+      "visibility": "public",
+      "image": "calcio5.jpeg",
+      "creator": 3,
+      "participants": [
+        1,
+        2,
+        3
+      ],
+      "active": 0
+    },
+    {
+      "id": 7,
+      "title": "Concerto danza dana",
+      "category": 3,
+      "date": "11/04/2020",
+      "time": "21:00",
+      "description": "Venite a vedermi mentre mi spezzo le dita ballando sulle punte",
+      "maxParticipants": 100,
+      "address": "Via Giulio Caccini 2, Firenze",
+      "coords": [
+        11.245976,
+        43.803653
+      ],
+      "visibility": "public",
+      "image": "concerto-DanzaDana.jpeg",
+      "creator": 2,
+      "participants": [2],
+      "active": 1
+    },
+    {
+      "id": 8,
+      "title": "Basket al campino",
+      "category": 8,
+      "date": "17/04/2020",
+      "time": "17:00",
+      "description": "No blood no foul",
+      "maxParticipants": 10,
+      "address": "Piazza del Duomo, Firenze",
+      "coords": [
+        11.255536,
+        43.772834
+      ],
+      "visibility": "public",
+      "image": "basket.jpg",
+      "creator": 2,
+      "participants": [2],
+      "active": 1
+    },
+    {
+      "id": 9,
+      "title": "Paddle notturno",
+      "category": 8,
+      "date": "19/04/2020",
+      "time": "22:00",
+      "description": "Una bella partita a paddle in notturna",
+      "maxParticipants": 4,
+      "address": "Piazza del Duomo, Firenze",
+      "coords": [
+        11.256754,
+        43.773578
+      ],
+      "visibility": "public",
+      "image": "paddle.jpeg",
+      "creator": 4,
+      "participants": [4],
+      "active": 1
+    },
+    {
+      "id": 10,
+      "title": "Sushi",
+      "category": 4,
+      "date": "16/04/2020",
+      "time": "20:00",
+      "description": "Ciao a tutti ho organizzato un sushi per rivedersi dopo tanto tempo",
+      "maxParticipants": 10,
+      "address": "Via del Melarancio 19r, Firenze",
+      "coords": [
+        11.251886,
+        43.774849
+      ],
+      "visibility": "public",
+      "image": "sushi.jpeg",
+      "creator": 3,
+      "participants": [3],
+      "active": 1
+    },
+    {
+      "id": 11,
+      "title": "Joker al cinema",
+      "category": 1,
+      "date": "14/04/2020",
+      "time": "19:00",
+      "description": "A qualcuno va di andare a vedere Joker al cinema?",
+      "maxParticipants": 5,
+      "address": "Piazza degli Strozzi, Firenze",
+      "coords": [
+        11.252414,
+        43.771059
+      ],
+      "visibility": "public",
+      "image": "joker.jpeg",
+      "creator": 2,
+      "participants": [2],
+      "active": 1
+    },
+    {
+      "id": 12,
+      "title": "Merenda in centro",
+      "category": 4,
+      "date": "10/05/2020",
+      "time": "17:40",
+      "description": "Andiamo a farci una merenda",
+      "maxParticipants": 5,
+      "address": "Piazza della Signoria 16r, Firenze",
+      "coords": [
+        11.255456,
+        43.770003
+      ],
+      "visibility": "public",
+      "image": "merenda-in-centro.jpeg",
+      "creator": 2,
+      "participants": [2],
+      "active": 1
+    },
+    {
+      "id": 13,
+      "title": "Concerto Pinguini Tattici Nucleari",
+      "category": 3,
+      "date": "15/04/2020",
+      "time": "19:00",
+      "description": "Recupero del concerto annullato ad Aprile",
+      "maxParticipants": 5,
+      "address": "Via Maurizio Bufalini 6, Firenze",
+      "coords": [
+        11.258706,
+        43.773614
+      ],
+      "visibility": "public",
+      "image": "concerto-pinguini.jpeg",
+      "creator": 3,
+      "participants": [3],
+      "active": 1
+    },
+    {
+      "id": 14,
+      "title": "Visita al corridoio vasariano",
+      "category": 7,
+      "date": "20/04/2020",
+      "time": "15:00",
+      "description": "Hanno riaperto il corridoio vasariano tocca a noi",
+      "maxParticipants": 5,
+      "address": "Via della Ninna 5, Firenze",
+      "coords": [
+        11.254035,
+        43.768266
+      ],
+      "visibility": "public",
+      "image": "corridoio-vasariano.jpeg",
+      "creator": 8,
+      "participants": [8],
+      "active": 1
+    }
+  ],
+  "invites": {
+    "1": [
+      4
+    ],
+    "2": [
+      4
+    ],
+    "3": []
+  },
+  "feedback": {
+    "1": [
+      5
+    ],
+    "2": [
+      5
+    ],
+    "3": [
+      5
+    ]
+  },
+  "archive": {
+    "1": [
+      6
+    ],
+    "2": [
+      6
+    ],
+    "3": [
+      6
+    ]
+  },
+  "categories": {
+    "1": {
+      "name": "Cinema",
+      "icon": "film"
+    },
+    "2": {
+      "name": "Social",
+      "icon": "globe-europe"
+    },
+    "3": {
+      "name": "Musica",
+      "icon": "music"
+    },
+    "4": {
+      "name": "Cibo",
+      "icon": "utensils"
+    },
+    "5": {
+      "name": "Teatro",
+      "icon": "theater-masks"
+    },
+    "6": {
+      "name": "Aperitivo",
+      "icon": "cocktail"
+    },
+    "7": {
+      "name": "Cultura",
+      "icon": "university"
+    },
+    "8": {
+      "name": "Sport",
+      "icon": "running"
+    }
+  },
+  "chats": {
+    "1": [
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "Ciao! Ma se piove come facciamo, ci tocca studiare davvero?",
+        "timestamp": "12:34"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Ma no, camminiamo al chiuso facendo il giro di ogni piano di Morgagni, tanto è pur sempre una camminata",
+        "timestamp": "13:37"
+      },
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "Perfetto! Ma giriamo anche all'interno delle aule?",
+        "timestamp": "14:41"
+      }
+    ],
+    "2": [
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Vi straccio tutti, non potete competere con me!",
+        "timestamp": "10:01"
+      }
+    ],
+    "3": [
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "Ho deciso, questo sarà l'evento che ci permetterà di testare i messaggi lunghissimi per vedere se l'applicazione riesce a visualizzarli correttamente",
+        "timestamp": "00:01"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Va bene, allora inizio anch'io a fare frasi lunghissime, dando nel frattempo delle nozioni interessanti per i poveri sciagurati che dovranno leggersi questa robaccia",
+        "timestamp": "00:02"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Per esempio, sapevate che il Javascript in realtà si chiama ECMAscript ed il suo nome più popolare deriva dal tentativo di renderlo più popolare negli anni 80, cavalcando l'onda del successo di Java? Una mossa abbastanza ignobile, se posso dire la mia...",
+        "timestamp": "00:03"
+      },
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "A proposito di Java, il suo simbolo deriva dal fatto che le persone che lo hanno originariamente ideato si trovavano per discutere in un bar, di fronte ad una tazza di caffè caldo... Di che qualità? Java, ovviamente",
+        "timestamp": "00:04"
+      },
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "Comunque direi che possiamo smettere con gli aneddoti riguardanti la programmazione, non è detto che chi legge sta roba sia interessato, che ne dici?",
+        "timestamp": "00:05"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Concordo, allora come possiamo riempire un altro po' di spazio? Ci tocca mettere il lorem ipsum, vero?",
+        "timestamp": "00:06"
+      },
+      {
+        "sender": 1,
+        "shortName": "Federico",
+        "message": "Temo proprio di sì",
+        "timestamp": "00:07"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Ok, se proprio dobbiamo...",
+        "timestamp": "00:08"
+      },
+      {
+        "sender": 2,
+        "shortName": "Tommaso",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ornare enim, ut luctus justo. Cras volutpat, metus sit amet pretium placerat, orci enim hendrerit dolor, vel ultricies ligula purus sed nunc. Pellentesque lobortis ex faucibus scelerisque convallis. Duis consequat elementum ante id vehicula. Praesent ac lorem eget lorem semper vestibulum. Cras ac lorem faucibus arcu sodales bibendum et nec diam. Etiam faucibus tortor sapien, pulvinar egestas nibh egestas non. Donec vitae mauris eget enim egestas mattis a nec mauris. Praesent cursus sapien in efficitur congue. Praesent aliquet accumsan orci eu vulputate. Donec eu magna vel sapien condimentum aliquet. Ut a magna scelerisque, lacinia justo quis, ultricies lacus. Sed sagittis maximus augue ut commodo. Nunc eget velit finibus, placerat ligula consequat, pellentesque nibh. Morbi a est ut nunc tristique tempus. Morbi molestie molestie lacus id congue.",
+        "timestamp": "00:09"
+      }
+    ],
+    "4": [
+      {
+        "sender": 3,
+        "shortName": "Pinco",
+        "message": "Ce l'avete fatta ad accettare il mio invito!",
+        "timestamp": "12:21"
+      }
+    ]
+  }
+}
