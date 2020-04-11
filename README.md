@@ -38,6 +38,6 @@ or deployed on the smartphone (after having configured Cordova) using
     cordova run [platform] --device
 
 ## Screenshots
-<img src="https://i.ibb.co/2YDmR0f/App-Mappa.png" width="250"> <img src="https://i.ibb.co/0Bxd1ZN/App-Filtri.png" width="250"> <img src="https://i.ibb.co/n0sVrVN/App-Lista.png" width="250">
-<img src="https://i.ibb.co/L9pwDN6/App-Crea.png" width="250"> <img src="https://i.ibb.co/nrjdT7Z/App-Profilo.png" width="250"> <img src="https://i.ibb.co/tPgZQh3/App-Dettagli.png" width="250">
-<img src="https://i.ibb.co/0JQ635X/App-Chat.png" width="250"> <img src="https://i.ibb.co/b2g8nHk/App-Conversazione.png" width="250">
+<img src="Images/App_Mappa.png" width="250"> <img src="Images/App_Filtri.png" width="250"> <img src="Images/App_Lista.png" width="250">
+<img src="Images/App_Crea.png" width="250"> <img src="Images/App_Profilo.png" width="250"> <img src="Images/App_Dettagli.png" width="250">
+<img src="Images/App_Chat.png" width="250"> <img src="Images/App_Conversazione.png" width="250">
