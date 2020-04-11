@@ -39,6 +39,5 @@ or deployed on the smartphone (after having configured Cordova) using
 
 ## Screenshots
 <img src="https://i.ibb.co/2YDmR0f/App-Mappa.png" width="250"> <img src="https://i.ibb.co/0Bxd1ZN/App-Filtri.png" width="250"> <img src="https://i.ibb.co/n0sVrVN/App-Lista.png" width="250">
-<img src="https://i.ibb.co/L9pwDN6/App-Crea.png" width="250"> <img src="https://i.ibb.co/nrjdT7Z/App-Profilo.png" width="250"> <img src="https://i.ibb.co/nrjdT7Z/App-Dettagli.png" width="250">
-<img src="https://i.ibb.co/nrjdT7Z/App-Chat.png" width="250"> <img src="https://i.ibb.co/nrjdT7Z/App-Conversazione.png" width="250">
-
+<img src="https://i.ibb.co/L9pwDN6/App-Crea.png" width="250"> <img src="https://i.ibb.co/nrjdT7Z/App-Profilo.png" width="250"> <img src="https://i.ibb.co/tPgZQh3/App-Dettagli.png" width="250">
+<img src="https://i.ibb.co/0JQ635X/App-Chat.png" width="250"> <img src="https://i.ibb.co/b2g8nHk/App-Conversazione.png" width="250">
